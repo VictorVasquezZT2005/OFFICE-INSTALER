@@ -17,14 +17,13 @@ Permite elegir entre una instalación completa o ligera y ejecuta automáticamen
 
 ## 📁 Estructura del proyecto
 
+```
 OFFICE/
 ├── full.xml
 ├── lite.xml
 ├── setup.exe
 └── instalar_office.cmd
-
-yaml
-Copiar código
+```
 
 ---
 
@@ -35,26 +34,27 @@ Copiar código
 3. Navega a la carpeta donde guardaste los archivos:
    ```cmd
    cd /d "D:\1TB\Descargas\OFFICE"
-Ejecuta el instalador:
+   ```
+4. Ejecuta el instalador:
+   ```cmd
+   instalar_office.cmd
+   ```
+5. Elige entre:
+   - `1` → Instalación **Completa** (usa `full.xml`)
+   - `2` → Instalación **Ligera** (usa `lite.xml`)
 
-cmd
-Copiar código
-instalar_office.cmd
-Elige entre:
+---
 
-1 → Instalación Completa (usa full.xml)
+## 🧑‍💻 Créditos
 
-2 → Instalación Ligera (usa lite.xml)
+**ZT Developer**  
+**Victor Vasquez**  
+📞 74886265  
+📧 [vvasquezok2016@devninja.xyz](mailto:vvasquezok2016@devninja.xyz)
 
-🧑‍💻 Créditos
-ZT Developer
-Victor Vasquez
-📞 74886265
-📧 vvasquezok2016@devninja.xyz
+---
 
-🪪 Licencia
-Este proyecto se distribuye con fines educativos y de automatización de instalación.
-El contenido de Microsoft Office pertenece a Microsoft Corporation.
+## 🪪 Licencia
 
-
-¿Deseas que también te genere un `LICENSE` (por ejemplo MIT o GPLv3) adaptado a tu nombre de desarrollador para agregarlo al repo?
+Este proyecto se distribuye con fines educativos y de automatización de instalación.  
+El contenido de Microsoft Office pertenece a **Microsoft Corporation**.
