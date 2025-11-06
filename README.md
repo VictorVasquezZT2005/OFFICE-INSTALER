@@ -7,7 +7,7 @@ Permite elegir entre una instalación completa o ligera y ejecuta automáticamen
 
 ## ⚙️ Características
 
-- Menú interactivo en consola (CMD)
+- Menú interactivo en consola (CMD o PowerShell)
 - Instalación automática con configuración predefinida (`full.xml` o `lite.xml`)
 - Créditos del desarrollador al finalizar la instalación
 - Compatible con Windows 10 / 11
@@ -22,12 +22,13 @@ OFFICE/
 ├── full.xml
 ├── lite.xml
 ├── setup.exe
-└── instalar_office.cmd
+├── instalar_office.cmd
+└── instalar_office.ps1
 ```
 
 ---
 
-## 🚀 Uso
+## 🚀 Uso (CMD)
 
 1. Coloca todos los archivos en la misma carpeta (`OFFICE`).
 2. Ejecuta **CMD como administrador**.
@@ -42,6 +43,30 @@ OFFICE/
 5. Elige entre:
    - `1` → Instalación **Completa** (usa `full.xml`)
    - `2` → Instalación **Ligera** (usa `lite.xml`)
+
+---
+
+## 💻 Uso (PowerShell)
+
+1. Coloca todos los archivos en la misma carpeta (`OFFICE`).
+2. Abre **PowerShell como administrador**.
+3. Si es la primera vez que ejecutas un script, habilita la ejecución temporalmente:
+   ```powershell
+   Set-ExecutionPolicy Bypass -Scope Process
+   ```
+4. Navega hasta la carpeta donde se encuentra el instalador:
+   ```powershell
+   cd "D:\1TB\Descargas\OFFICE"
+   ```
+5. Ejecuta el script:
+   ```powershell
+   .\instalar_office.ps1
+   ```
+6. Elige entre:
+   - `1` → Instalación **Completa** (`full.xml`)
+   - `2` → Instalación **Ligera** (`lite.xml`)
+
+> 💡 Si no se ejecuta automáticamente como administrador, el script lo hará por ti.
 
 ---
 
