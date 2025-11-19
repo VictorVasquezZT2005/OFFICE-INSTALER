@@ -1,13 +1,7 @@
-<Configuration ID="6e9b57bd-6201-4f15-ab82-4d791cabefbc">
+<Configuration ID="f17337c5-f575-4d17-8bfb-8e563b84f814">
   <Add OfficeClientEdition="32" Channel="PerpetualVL2024">
     <Product ID="ProPlus2024Volume" PIDKEY="XJ2XN-FW8RK-P4HMP-DKDBV-GCVGB">
-      <Language ID="es-mx" />
-    </Product>
-    <Product ID="VisioPro2024Volume" PIDKEY="B7TN8-FJ8V3-7QYCP-HQPMV-YY89G">
-      <Language ID="es-mx" />
-    </Product>
-    <Product ID="ProjectPro2024Volume" PIDKEY="FQQ23-N4YCY-73HQ3-FM9WC-76HF4">
-      <Language ID="es-mx" />
+      <Language ID="es-es" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />
@@ -18,10 +12,9 @@
   <Updates Enabled="TRUE" />
   <RemoveMSI />
   <AppSettings>
-    <Setup Name="Company" Value="ZT" />
+    <Setup Name="Company" Value="Devninja" />
     <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="51" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
     <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
     <User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
   </AppSettings>
-  <Display Level="Full" AcceptEULA="TRUE" />
 </Configuration>
